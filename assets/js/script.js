@@ -125,7 +125,7 @@ function forecast(cityid){
         
         for (i=0;i<5;i++){
 
-                var holderEl = $("<div>").attr("class", "border weather-card col-12 col-lg-8 m-3");
+                var holderEl = $("<div>").attr("class", "border weather-card col-12 col-lg-8 m-2");
                 var dateEl = $("<p>").attr("id", "#fDate"+i);
                 var iconcodeEl = $("<p>").attr("id", "#fImg"+i);
                 var tempEl = $("<p>").html("<span id=fTemp" + i +"></span>");
