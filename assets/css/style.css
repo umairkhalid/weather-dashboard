@@ -34,6 +34,26 @@ img {
   float: right;
 }
 
+footer {
+  height: 30px;
+  background: white;
+  color: #325D86;
+  text-align: center;
+  padding: 5px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  justify-content: center;
+}
+
+footer p {
+padding: 0;
+margin: 0 auto;
+line-height: 1;
+font-size: 0.8rem;
+}
+
 .clear {
     visibility: hidden;
 }
